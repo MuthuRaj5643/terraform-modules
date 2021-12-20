@@ -1,5 +1,5 @@
 module "create_app" {
-  source = "/home/muthu/terraform/modules/app_engine"
+  source = "../modules/app_engine"
   project_name = var.project_name
   project_id = var.project_id
   location_id = var.location_id
