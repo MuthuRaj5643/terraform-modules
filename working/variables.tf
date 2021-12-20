@@ -5,7 +5,7 @@ variable "project_name" {
 
 variable "project_id" {
     type = string
-    default = "terraform-testing-22366"
+    default = "terraform-testing-22366626"
 }
 
 variable "location_id" {
