@@ -1,0 +1,20 @@
+[
+    {
+      "name": "firstname",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "first name"
+    },
+    {
+      "name": "lastname",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "last name"
+    },
+    {
+      "name": "salary" ,
+      "type": "INTEGER" ,
+      "mode": "NULLABLE" ,
+      "description": "salary of an individual"
+    }
+  ]
