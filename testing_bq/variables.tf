@@ -1,6 +1,6 @@
 variable "dataset_id" {
     type = string
-    default = "sample-22366"
+    default = "sample_22366"
 
 }
 

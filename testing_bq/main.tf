@@ -1,5 +1,5 @@
 # provider "google" {
-#     project_id = var.project_id
+#     project_id = ""
 # }
 
 module "create_dataset" {
@@ -8,5 +8,5 @@ module "create_dataset" {
     friendly_name = var.friendly_name
     description = var.description
     location = var.location
-    project = var.project_id
+    project_id = var.project_id
 }
