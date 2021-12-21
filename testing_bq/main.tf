@@ -1,6 +1,6 @@
-provider "google" {
-    project_id = var.project_id
-}
+# provider "google" {
+#     project_id = var.project_id
+# }
 
 module "create_dataset" {
     source = "../modules/big_query"
@@ -8,4 +8,5 @@ module "create_dataset" {
     friendly_name = var.friendly_name
     description = var.description
     location = var.location
+    project = var.project_id
 }
