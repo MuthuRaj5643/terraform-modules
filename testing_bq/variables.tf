@@ -18,3 +18,8 @@ variable "location" {
     type = string
     default = "US"
 }
+
+variable "project_id" {
+    type = string
+    default = "fluent-buckeye-335714"
+}
