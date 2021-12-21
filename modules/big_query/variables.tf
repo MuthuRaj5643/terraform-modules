@@ -18,3 +18,23 @@ variable "location" {
 variable "project_id" {
     type = string
 }
+
+variable "table_id" {
+    type = string
+}
+
+variable "source_uris" {
+    type = list(string)   
+}
+
+variable "source_format" {
+    type = string
+}
+
+variable "autodetect" {
+    type = bool
+}
+
+variable "deletion_protection" {
+    type = bool
+}
