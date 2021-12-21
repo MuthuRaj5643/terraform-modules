@@ -5,7 +5,6 @@ provider "google" {
 
 module "create_app" {
   source = "../modules/app_engine_existing_project"
-  # project_name = var.project_name
   project_id = var.project_id
   location_id = var.location_id
 }

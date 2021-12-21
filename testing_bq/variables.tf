@@ -46,5 +46,5 @@ variable "autodetect" {
 
 variable "deletion_protection" {
     type = bool
-    default = false
+    default = true
 }
