@@ -11,6 +11,7 @@ module "create_app" {
 
 module "create_cloud_tasks_queue" {
   source   = "../modules/cloud_task_queue_basic"
+  project_id = var.project_id
   name     = var.name
   location = var.cloud_task_location
 }
