@@ -17,7 +17,7 @@ resource "google_storage_bucket_object" "object" {
 
 resource "google_app_engine_standard_app_version" "myapp_v1" {
   version_id = "v1"
-  service    = "myapp"
+  service    = "default"
   runtime    = "python27"
 
   entrypoint {
